@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "LineShareKit"
-  s.version      = "0.0.2"
+  s.version      = "0.0.4"
   s.summary      = "Share text or image to Line from your apps written in Swift"
   s.homepage     = "https://github.com/JaminZhou/LineShareKit"
   s.license      = { :type => "MIT", :file => "LICENSE" }
