@@ -8,8 +8,8 @@
 
 import UIKit
 
-class LineShareKit {
-    class func share(text: String) -> Bool {
+public class LineShareKit {
+    class public func share(text: String) -> Bool {
         guard let text = text.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)
         else {return false}
         
@@ -17,7 +17,7 @@ class LineShareKit {
         return UIApplication.shared.openURL(url)
     }
     
-    class func share(image: UIImage) -> Bool {
+    class public func share(image: UIImage) -> Bool {
         guard let imageData = UIImageJPEGRepresentation(image, 1.0)
         else {return false}
         
